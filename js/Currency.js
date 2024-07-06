@@ -54,3 +54,17 @@ class Currency{
 }
 
 // export {Currency};
+
+/*
+как использовать 
+HTML -> <select id="currency"></select>
+
+document.querySelector('#currency').addEventListener('change',async e=>{
+  localStorage.setItem('currency_id',e.target.value)
+  Currency.renderOption('#currency')
+})
+
+window.onload=async e=>{
+  Currency.renderOption('#currency')
+}
+*/
